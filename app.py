@@ -97,7 +97,7 @@ def process_pdf(pdf_docs):
 
 def get_conversation_chain(vectorstore):
     """
-    Initializes and returns a conversational retrieval chain using Gemini 1.5 Pro.
+    Initializes and returns a conversational retrieval chain using Gemini 2.5 Pro.
     """
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-preview-05-20", temperature=0.5, convert_system_message_to_human=True) 
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
@@ -111,9 +111,9 @@ def get_conversation_chain(vectorstore):
 
 # --- Streamlit User Interface (UI) ---
 
-st.set_page_config(page_title="PDF Chatbot (Gemini 1.5 Pro)", page_icon="📄", layout="centered")
+st.set_page_config(page_title="PDF Chatbot (Gemini 2.5 Pro)", page_icon="📄", layout="centered")
 
-st.header("Chat with your PDF(s) 📄 using Gemini 1.5 Pro")
+st.header("Chat with your PDF(s) 📄 using Gemini 2.5 Pro")
 
 # Sidebar for PDF upload and processing button
 with st.sidebar:
