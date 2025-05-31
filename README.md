@@ -7,7 +7,7 @@ A Streamlit application that allows you to chat with your PDF documents using Go
 - Upload and process multiple PDF documents
 - Interactive chat interface
 - Real-time progress tracking during PDF processing
-- Powered by Google's Gemini 1.5 Pro model
+- Powered by Google's Gemini 2.5 Pro model
 - Maintains conversation history
 
 ## Setup
