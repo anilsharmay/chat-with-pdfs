@@ -1,0 +1,5 @@
+your_project_name/
+├── .env                  <-- Contains your GOOGLE_API_KEY (DO NOT COMMIT THIS!)
+├── .gitignore            <-- Crucial for security
+├── app.py                <-- Your Streamlit application code (Gemini version)
+└── requirements.txt      <-- All Python dependencies
