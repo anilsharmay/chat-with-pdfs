@@ -54,4 +54,4 @@ streamlit run app.py
 
 ## Note
 
-Make sure to keep your Google API key secure and never commit it to version control. 
+Make sure to keep your Google API key secure and never commit it to version control.
